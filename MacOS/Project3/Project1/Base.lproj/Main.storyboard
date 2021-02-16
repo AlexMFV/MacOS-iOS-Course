@@ -11,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Project1" id="1Xt-HY-uBw">
+                            <menuItem title="Project3" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Project1" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Project3" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Project1" id="5kV-Vb-QxS">
+                                        <menuItem title="About Project3" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -29,7 +29,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Project1" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Project3" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -47,7 +47,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Project1" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Project3" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -84,7 +84,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="Project1 Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Project3 Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -98,7 +98,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Project1" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Project3" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,24 +113,30 @@
                         <rect key="contentRect" x="432" y="192" width="800" height="400"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <value key="minSize" type="size" width="480" height="270"/>
-                        <toolbar key="toolbar" implicitIdentifier="5D46CE1C-A1CE-4CEE-9F4B-B102A16131CA" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="VSs-ss-zXE">
+                        <toolbar key="toolbar" implicitIdentifier="7756B519-B9E8-4B4C-ABF7-08E470A2994A" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="ocL-Hc-wIK">
                             <allowedToolbarItems>
-                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="iro-j5-Cyc"/>
-                                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="yeZ-kB-sNN"/>
-                                <toolbarItem implicitItemIdentifier="92E73708-B516-4F84-835A-B760F276B2DF" label="Custom View" paletteLabel="Custom View" sizingBehavior="auto" id="UvI-Bw-nsw">
+                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="Ako-pg-7kb"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="jF9-oW-YHZ"/>
+                                <toolbarItem implicitItemIdentifier="D2491E72-B81E-4FBB-B7A7-F54485048B1B" label="" paletteLabel="" image="NSShareTemplate" id="b0a-bA-26I">
                                     <nil key="toolTip"/>
-                                    <button key="view" verticalHuggingPriority="750" id="xqn-7Y-HMZ">
-                                        <rect key="frame" x="0.0" y="14" width="127" height="25"/>
+                                    <size key="minSize" width="47" height="30"/>
+                                    <size key="maxSize" width="47" height="30"/>
+                                    <button key="view" verticalHuggingPriority="750" id="L6C-Ae-qwp">
+                                        <rect key="frame" x="0.0" y="14" width="147" height="26"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="roundTextured" title="Textured Rounded" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="PDl-XY-drq">
+                                        <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="NSShareTemplate" imagePosition="only" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hgu-ud-DfP">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
+                                        <connections>
+                                            <action selector="sharedClicked:" target="Oky-zY-oP4" id="1be-lN-fSO"/>
+                                        </connections>
                                     </button>
                                 </toolbarItem>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
-                                <toolbarItem reference="yeZ-kB-sNN"/>
+                                <toolbarItem reference="jF9-oW-YHZ"/>
+                                <toolbarItem reference="b0a-bA-26I"/>
                             </defaultToolbarItems>
                         </toolbar>
                         <connections>
@@ -145,10 +151,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--Split View Controller-->
+        <!--View Controller-->
         <scene sceneID="pDo-SD-9YE">
             <objects>
-                <splitViewController id="yO5-wG-87M" sceneMemberID="viewController">
+                <splitViewController id="yO5-wG-87M" customClass="ViewController" customModule="Project3" customModuleProvider="target" sceneMemberID="viewController">
                     <splitViewItems>
                         <splitViewItem holdingPriority="260" id="0Yd-up-Dn2"/>
                         <splitViewItem holdingPriority="260" id="Gpf-m5-IlG"/>
@@ -173,7 +179,7 @@
         <!--Source View Controller-->
         <scene sceneID="GWF-tV-DMm">
             <objects>
-                <viewController id="zDU-vr-7CQ" customClass="SourceViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zDU-vr-7CQ" customClass="SourceViewController" customModule="Project3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="tDE-JW-W6k">
                         <rect key="frame" x="0.0" y="0.0" width="250" height="400"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -268,7 +274,7 @@
         <!--Detail View Controller-->
         <scene sceneID="DnH-8G-VfC">
             <objects>
-                <viewController id="AND-c2-W47" customClass="DetailViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AND-c2-W47" customClass="DetailViewController" customModule="Project3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="PoH-DR-bQk">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -296,5 +302,6 @@
     </scenes>
     <resources>
         <image name="NSActionTemplate" width="15" height="15"/>
+        <image name="NSShareTemplate" width="16" height="17"/>
     </resources>
 </document>
